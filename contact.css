@@ -58,7 +58,8 @@
   }
   
   #contact-no,
-  #email {
+  #email,
+  #LinkedIn {
     background-color: var(--card-background);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -70,13 +71,15 @@
   }
   
   #contact-no:hover,
-  #email:hover {
+  #email:hover,
+   #LinkedIn:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   }
   
   .fa-solid,
-  .fa-regular {
+  .fa-regular,
+   .fa-brands {
     font-size: 3rem;
     color: var(--primary-color);
     margin-bottom: 1rem;
