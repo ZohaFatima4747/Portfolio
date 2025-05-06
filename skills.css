@@ -1,0 +1,176 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body
+{
+margin: 0;
+padding: 0;
+align-items: center;
+justify-content: center;
+height: 100%;
+width: 100%;
+background: #6d83904f;
+}
+
+h1{
+    text-align: center;
+    background-color: #60686ba5;
+}
+
+.container
+{
+    width: 100%;
+    margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+height: 100%;
+}
+.btn
+{
+width: 100px;
+height:100px;
+background-color: #fafafa;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 2em;
+margin-right: 1em;
+cursor: pointer;
+transition: all 0.3s;
+border-radius: 10px;
+}
+
+img{
+    height: 80px;
+}
+i
+{
+font-size: 100px;
+}
+#html
+{
+color: #ffbb4fc9;
+text-shadow: 0 0 30px #fca943;
+}
+#css
+{
+color: #5baaf3;
+text-shadow: 0 0 30px #6bcdfe;
+}
+#js
+{
+color: #f8e35bee;
+text-shadow: 0 0 30px #f8e65ac8;
+}
+
+#react
+{
+color: #4293f5cc;
+text-shadow: 0 0 30px #467df4;
+}
+
+#github
+{
+color: #181503ee;
+text-shadow: 0 0 30px #161407c8;
+}
+#img
+{
+padding-top: 25px;
+color: #2882ccee;
+filter:drop-shadow( 0 0 30px #027ddbdd);
+}
+
+
+.btn.fb-btn
+{
+box-shadow: 0 20px 20px -17px rgba(72, 79, 90, 0.53);
+}
+.btn.fb-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(72, 79, 90, 0.53);
+}
+.btn.ig-btn
+{
+box-shadow: 0 20px 20px -17px rgba(72, 79, 90, 0.53);
+}
+.btn.ig-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(72, 79, 90, 0.53);
+}
+.btn.tw-btn
+{
+box-shadow: 0 20px 20px -17px rgba(72, 79, 90, 0.53);
+}
+.btn.tw-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(72, 79, 90, 0.53);
+}
+
+
+/* Small mobile devices (up to 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .container {
+        flex-wrap: wrap;          
+        justify-content: center;  
+      }
+    
+      .btn {
+        width: 45%;    
+        margin: 1em;    
+        height: 100px;  
+      }
+    
+    i {
+        font-size: 60px;
+    }
+    img {
+        height: 50px;
+    }
+}
+
+/* Medium devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .btn {
+        width: 80px;
+        height: 80px;
+        margin: 0.8em;
+    }
+    i {
+        font-size: 80px;
+    }
+    img {
+        height: 60px;
+    }
+}
+
+/* Large screens (above 1200px) */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .btn {
+        width: 120px;
+        height: 120px;
+        margin: 1.2em;
+    }
+    i {
+        font-size: 120px;
+    }
+    img {
+        height: 100px;
+    }
+}
